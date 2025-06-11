@@ -1,0 +1,231 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .img1 {
+        height: 78px;
+        width: 116px;
+    }
+
+    .img1 img {
+        width: 100%;
+        height: auto;
+        margin-top: -40px;
+    }
+
+    .info {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        text-transform: uppercase;
+    }
+
+    .img2 {
+        margin-left: 20px;
+    }
+
+    .img0 {
+        background-image: url("https://tz47gb.yourbrand.studio/files/dynamicContent/sites/tz47gb/images/en/webpage_11/m66gvjjz/element_210/rwdMode_2/1536x836/main.webp");
+        height: 490px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        color: white;
+        text-align: center;
+    }
+
+    .hh {
+        font-size: 60px;
+        padding-top: 160px;
+    }
+
+    .rr {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    button {
+        background-color: rgb(143, 72, 72);
+        color: black;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: rgb(225, 237, 225);
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    p {
+        text-align: center;
+        font-size: 40px;
+        margin: 20px 0;
+    }
+
+    .imgmain,
+    .main2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .main2 img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .new,
+    .bottol {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px;
+        background-color: #e0e0e0;
+    }
+
+    .para h6 {
+        font-weight: lighter;
+    }
+
+    .coo img,
+    .bottol1 img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .bottole2 {
+        text-align: left;
+    }
+
+    .emp {
+        background-color: #e0e0e0;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .name {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .name1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .name1 img {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+/* 
+    * {
+        outline: 2px solid red;
+    } */
+
+    @media (max-width: 768px) {
+        .hh {
+            font-size: 40px;
+            padding-top: 120px;
+        }
+
+        .rr {
+            font-size: 14px;
+        }
+
+        p {
+            font-size: 30px;
+        }
+
+        .info {
+          
+            justify-content: center;
+            
+            margin: 1rem 1rem;
+            margin-top: 70px;
+        }
+
+        .bottole2 {
+            text-align: center;
+        }
+
+        .main2 {
+            flex-direction: column;
+        }
+
+        .img0 {
+            height: 350px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .img1 {
+            height: 50px;
+            width: 100px;
+        }
+
+        .info h2 {
+            font-size: 14px;
+        }
+
+        .hh {
+            font-size: 30px;
+            padding-top: 100px;
+        }
+
+        .rr {
+            font-size: 12px;
+        }
+
+        p {
+            font-size: 24px;
+        }
+
+        .main2 img {
+            max-width: 90%;
+        }
+
+        .name1 img {
+            height: 70px;
+            width: 70px;
+        }
+
+        .img1 {
+            position: absolute;
+            left: 150px;
+            top: 10px;
+        }
+    }
